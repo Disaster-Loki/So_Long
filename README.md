@@ -71,6 +71,7 @@ Run the game using the following commands:
 2 - Bonus Version:
 ```bash
 ./so_long_bonus maps/map4.ber
+```
 
 Make sure your map follows the required format (⬛ walls, 🟡 collectibles, 🚪 exit, P player start position).
 
