@@ -67,6 +67,7 @@ Run the game using the following commands:
 1 - Mandatory Version:
 ```bash
 ./so_long maps/map.ber
+```
 
 2 - Bonus Version:
 ```bash
