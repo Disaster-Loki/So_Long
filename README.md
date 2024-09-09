@@ -46,3 +46,4 @@ In **So_Long**, you control a character navigating through a maze. Your task is 
 git clone git@github.com:Disaster-Loki/So_Long.git
 cd So_Long
 
+### 1. Clone the repository:
