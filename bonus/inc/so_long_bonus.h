@@ -81,7 +81,6 @@ void	game_over(t_game *game, char c);
 void	close_img(void *mlx, t_img *img);
 
 void	get_count_exit(t_game *game);
-void	get_count_steps(t_game *game);
 int		keypress(int key, t_game *game);
 void	get_player_animation(t_game *game, int x, int y);
 void	get_alter_position(t_game *game, t_point begin, int x, int y);

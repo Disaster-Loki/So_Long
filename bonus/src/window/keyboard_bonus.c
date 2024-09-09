@@ -12,17 +12,8 @@
 
 #include "../../inc/so_long_bonus.h"
 
-void	get_count_steps(t_game *game)
-{
-	ft_putstr_fd("Steps: ", 1);
-	ft_putnbr_fd(game->count, 1);
-	ft_putchar_fd('\n', 1);
-}
-
 void	get_count_exit(t_game *game)
 {
-	game->count++;
-	get_count_steps(game);
 	print_steps(game);
 	ft_putstr_fd("Winner !!\n", 1);
 	close_game(game);
@@ -51,7 +42,6 @@ void	get_alter_position(t_game *game, t_point begin, int x, int y)
 			game->map[begin.x + x][begin.y + y] = 'P';
 		}
 		game->count++;
-		get_count_steps(game);
 		print_map_window(game);
 	}
 }

@@ -104,7 +104,6 @@ void	window_init(char **args)
 
 	get_init(&game, args);
 	get_img_path(&game, game.mlx, &game.img);
-	get_count_steps(&game);
 	game.win = mlx_new_window(game.mlx, game.pos.x, game.pos.y, game.g_name);
 	mlx_hook(game.win, 02, 1L << 0, keypress, &game);
 	mlx_hook(game.win, 17, 0, close_game, &game);
