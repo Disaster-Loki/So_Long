@@ -4,6 +4,9 @@ Welcome to **So_Long**, a game inspired by Pac-Man, built using the **MiniLibX**
 
 ---
 
+## 🏅 42 Luanda Project
+This project is part of the 42 Luanda curriculum, where students learn how to develop software from the ground up, including the use of graphical libraries like MiniLibX.
+
 ## 🚀 Game Overview
 
 In **So_Long**, you control a character navigating through a maze. Your task is to collect all the collectibles 🟡 and find the shortest route to escape 🚪. But beware—walls will block your way, and if you are playing the bonus version, enemies 👾 might patrol the area!
@@ -45,5 +48,29 @@ In **So_Long**, you control a character navigating through a maze. Your task is 
 ```bash
 git clone git@github.com:Disaster-Loki/So_Long.git
 cd So_Long
+```
+### 2. Compile the project:
 
-### 1. Clone the repository:
+1 - Mandatory Version: To compile the mandatory version of the game, run:
+```bash
+make
+```
+2 - Bonus Version: To compile the bonus version, run: 
+```bash
+make bonus
+```
+
+### 3. ▶️ How to Play
+
+Run the game using the following commands:
+
+1 - Mandatory Version:
+```bash
+./so_long maps/map.ber
+
+2 - Bonus Version:
+```bash
+./so_long_bonus maps/map4.ber
+
+Make sure your map follows the required format (⬛ walls, 🟡 collectibles, 🚪 exit, P player start position).
+
